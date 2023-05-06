@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #75C9B7;
+        }
+        header,nav,section,aside,footer{
+            /* Grueso estilo y color de border */
+            /* forma del borde redondeado */
+            /* centrar contenido */
+            text-align: center;
+            /* RAMAÑO DE LETRA */
+            font-size: large;
+            /* PADING ESPACIO HACIA ADENTTRO */
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            /* color */
+            background-color: #322E2F;
+            padding-bottom: 15px;
+        }
+        nav{
+            background-color: #C7DDCC;
+            margin-top: 40px;
+            margin-left: 15px;
+            margin-right: 15px;
+            justify-content: space-between;
+        }
+        h1{
+            /* margen negativo */
+            margin-bottom: -15px;            
+        }
+        nav{
+            background-color: #C7DDCC;
+            padding-top: 10px;
+        }
+        section{
+            background-color: #12A4D9;
+            width: 80%;
+  
+
+            margin: 10px;
+        }
+        aside{
+            background-color: #D9138A;
+            width: 20%;
+            margin: 10px;
+        }
+        footer{
+            padding-top: 2px;
+            background-color: #E2D810;
+            margin-top: 5px;
+        }
+        div{
+            display: flex;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            margin-right: 10%;
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: #D9138A;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg"/>
+        <h1 style="color: #AB1A41;">Gobierno de la Ciudad de México</h1>
+        <nav>
+                <a href="#elemento1">Elemento 1</a>
+                <a href="#elemento2">Elemento 2</a>
+                <a href="#elemento3">Elemento 3</a>
+                <a href="#elemento4">Elemento 4</a>
+        </nav>
+    </header>
+    <div style="background: #C7DDCC;"> 
+        <section>
+            <article>
+                <h1>Encabezado nivel 2</h1>
+                <p>Aqui va texto del primer párrafo</p>
+                <p>Aqui va texto del segundo párrafo</p>
+            </article>
+        </section>
+        <aside>
+            <h1>Apartado</h1>
+            <p>Elije una opción</p>
+                <input id="opt1" type="checkbox">
+                <label for="opt1">Opción 1</label><br>
+                <input id="opt2" type="checkbox">
+                <label for="opt2">Opción 2</label><br>
+                <input id="opt3" type="checkbox">
+                <label for="opt3">Opción 3</label><br>
+                <input type="button" value="Enviar">
+                
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <p>Sección de informacion de contacto, derechos autor,  etc.</p>
+    </footer>
+</body>
+</html>
