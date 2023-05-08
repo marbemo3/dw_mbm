@@ -1,0 +1,74 @@
+header{
+    background-color: #FFFFFF;
+    border-bottom: 20px solid #F3F3F3;
+}
+nav{
+    background-color: #FFFFFF;
+    background-color: none;
+    float: right;
+    justify-content: space-between;
+}
+.pb1{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pb{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nor{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    place-items: center;
+}
+.grid-de-letras {
+    display: grid;
+    /* sep de elementos internos*/
+    gap: 10px;
+    /*empuja a los hijos*/
+    padding: 10px;
+    padding-left: 50px;
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .item1 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .item2 {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+  .item3 {
+    grid-column: 3;
+    grid-row: 2 / 4;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .item4 {
+    grid-column: 3;
+    grid-row: 4;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }  
+  .image{
+    margin-bottom: -200px;
+  }
+footer{
+    background-color: #E2D810;
+}
