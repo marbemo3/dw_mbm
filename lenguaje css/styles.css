@@ -44,6 +44,7 @@ nav{
     font-family: 'Archivo Black', sans-serif;
     color: white;
     font-size: 25px;
+    padding-bottom: -800px;
   }
   
   .item2 {
@@ -66,9 +67,6 @@ nav{
     font-family: 'Roboto', sans-serif;
     color: white;
   }  
-  .image{
-    margin-bottom: -200px;
-  }
 footer{
     background-color: #E2D810;
 }
